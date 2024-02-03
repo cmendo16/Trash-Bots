@@ -1,2 +1,2 @@
 # Trash-Bots
-A repository to hold files related to 
+A repository to hold files related to bots
