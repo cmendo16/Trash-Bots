@@ -5,6 +5,11 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
@@ -39,6 +44,7 @@ header {
     /* Ensures header stretches to the right edge */
     z-index: 1000;
     /* Ensures header is above other content */
+    scroll-behavior: smooth;
 }
 
 
