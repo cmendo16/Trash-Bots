@@ -3,7 +3,7 @@
 TrashBots is an innovative web platform that merges environmental advocacy with cutting-edge technology. Our mission is to empower individuals and communities to combat litter and build a sustainable future. The goal is to simplify the process of reporting litter and fostering community engagement.
 
 ## Features
-- **AI-Powered Litter Detection:** Utilizes advanced AI image recognition to detect and identify litter in the environment.
+- **AI-Powered Litter Detection:** Bots utilize advanced AI image recognition to detect and identify litter in the environment.
 - **Efficient Reporting and Logging:** Automatically generates detailed reports about the litter, aiding cleanup efforts.
 - **Interactive User Assistance:** Provides guidance through interactive prompts for reporting litter sightings and uploading data.
 - **Data Collection and Analysis:** Gathers insights on littering patterns for use by authorities and policymakers.
