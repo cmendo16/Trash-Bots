@@ -66,7 +66,6 @@ nav ul {
 nav ul li {
     margin-right: 20px;
     display: inline-block;
-    /* Space between each menu item */
 }
 
 /* Remove the margin if you don't want the last item to have space on the right */
@@ -89,7 +88,6 @@ a {
     margin-right: 10px;
 }
 
-/* Change icon appearance on hover */
 #icons i:hover {
     /* Your hover styles */
     color: rgb(32, 243, 204);
