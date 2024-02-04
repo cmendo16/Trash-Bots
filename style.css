@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#131313, #0a0f0a);
+    /* Sunset Pink */
+    color: white;
+    /* Moss Green */
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    padding: 10px 20px 0px;
+    /* Adjust padding as needed */
+    position: fixed;
+    background-color: #131313;
+    top: 0;
+    /* Fixes header to the top of the viewport */
+    left: 0;
+    /* Ensures header starts from the left edge */
+    right: 0;
+    /* Ensures header stretches to the right edge */
+    z-index: 1000;
+    /* Ensures header is above other content */
+}
+
+
+
+h1 {
+    margin-right: 20px;
+    padding-right: 20px;
+    /* Space between the h1 and the nav */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* Aligns the li elements side by side */
+    padding-left: 25px;
+    margin: 0;
+    align-items: center;
+    gap: 30px;
+    /* Aligns the li elements vertically */
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline-block;
+    /* Space between each menu item */
+}
+
+/* Remove the margin if you don't want the last item to have space on the right */
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* Adjust the color as needed */
+}
+
+#icons {
+    margin-left: auto;
+}
+
+#icons i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* Change icon appearance on hover */
+#icons i:hover {
+    /* Your hover styles */
+    color: rgb(32, 243, 204);
+    /* For example, change color to red */
+}
+
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Section headers */
+h2 {
+    color: white;
+    /* Cerulean */
+    text-align: center;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+section {
+    padding: 260px 70px;
+    /* Significantly increased padding */
+    margin-bottom: 40px;
+    /* Bottom margin remains the same */
+}
+
+/* About-Header */
+#about-title {
+    font-size: 50px;
+    padding: 35px;
+
+}
+
+/* Header styles  */
+.header {
+    font-size: 40px;
+    padding: 35px;
+}
+
+h3 {
+    padding-left: 290px;
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+pre {
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+
+.bot-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.about-content {
+    text-align: center;
+    /* Center aligns the text within each section */
+}
+
+.about-info {
+    text-align: left;
+    /* Left aligns the text under each header */
+    white-space: pre-wrap;
+    /* Ensures long lines are wrapped */
+    width: 80%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Centers the text block horizontally */
+}
+
+nav ul li a:hover {
+    color: rgb(32, 243, 204);
+    /* Change blue to whatever color you want */
+}
+
+.trash-bot img {
+    width: 70px;
+    /* Adjust the width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 30px;
+    /* Adjust the distance from the top of its container */
+    margin-left: 10px;
+    /* Adjust the distance from the left of its container */
+}
