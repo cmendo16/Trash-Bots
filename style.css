@@ -5,9 +5,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 
 /* General body styling */
@@ -108,17 +105,7 @@ main {
 /* Section headers */
 h2 {
     color: white;
-    /* Cerulean */
     text-align: center;
-}
-
-
-/* Responsive design */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
 }
 
 section {
@@ -176,11 +163,6 @@ pre {
     /* Centers the text block horizontally */
 }
 
-nav ul li a:hover {
-    color: rgb(32, 243, 204);
-    /* Change blue to whatever color you want */
-}
-
 .trash-bot img {
     width: 70px;
     /* Adjust the width of the image */
@@ -190,4 +172,9 @@ nav ul li a:hover {
     /* Adjust the distance from the top of its container */
     margin-left: 10px;
     /* Adjust the distance from the left of its container */
+}
+
+nav ul li a:hover {
+    color: rgb(32, 243, 204);
+    /* Change blue to whatever color you want */
 }
